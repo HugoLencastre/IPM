@@ -1,0 +1,112 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>IRave grupo 25</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="./css/Style.css" >
+
+<script src="./javascript/jquery-1.11.2.min.js"></script>
+<script LANGUAGE="JavaScript" src="./javascript/Botoes.js"></script>
+
+</head>
+
+<body class = "clock" onload="desactivarTudo()">
+
+<div id="sidebar">
+<center>
+<font size = "2">
+<br><br><br>
+<a href="./ManualdoUtilizador.pdf" target="_blank" style="color: #0000FF">User Manual</a>
+</font>
+<font color ="white" size = "7"><br><br><br>
+I<br>
+P<br>
+M<br>
+<br>
+G<br>
+R<br>
+U<br>
+P<br>
+O<br>
+<br>
+25<br>
+</font>
+
+</center>
+</div>
+
+	
+<div id="trianguloesq"><img src="./Background/trianguloesquerda.png" style="height: 164 ; width: 90"/></div>
+
+<div id="triangulodir"><img src="./Background/triangulodireito.png" style="height: 164 ; width: 90"/></div>
+
+<div id="triangulodiraesq"><img src="./Background/triangulodireito.png" style="height: 164 ; width: 90"/></div>
+
+
+<div class="Center-Container Absolute-Center">
+
+<div class="CaixaBotoesDir PosicaoCaixaBotoesDir">
+<center>
+<br>
+<button id = "Rodacima" onclick="Rodacima()">Roda p/cima</button>
+<br>
+<br>
+<button id = "Seleccionar" onclick="Seleccionar()">Seleccionar</button>
+<br>
+<br>
+<button id = "Rodabaixo" onclick="Rodabaixo()">Roda p/baixo</button>
+</center>
+</div>
+
+<div class="CaixaBotoesEsq PosicaoCaixaBotoesEsq">
+<center>
+<br>
+<br>
+<button id = "home" onclick="home()">Home</button>
+<br>
+<br>
+<br>
+<button id = "Back" onclick="Back()">Back</button>
+</center>
+</div>
+
+<div class="CaixaBotoesDirAEsq PosicaoCaixaBotoesDirAEsq">
+<center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<button onmousedown="iniciaalarme()" onmouseup="terminaalarme()">Home + Back</button>
+<br>
+</div>
+
+<div class="pulseiracima">
+</div>
+
+<div class="pulseirabaixo">
+</div>
+
+<div class="botaocima PosicaoBotaoCima">
+</div>
+
+<div class="botaobaixo PosicaoBotaoBaixo">
+</div>
+
+<div class="rodinhaSelect PosicaoRodinhaSelect">
+</div>
+
+<div class="rodinha PosicaoRodinha">
+</div>
+
+<div class="relogio Absolute-Center1">
+<img id="imagens" src="./Background/blackscreen.png">
+<h2 id="horas"><span></span></h2>
+<h3 id="dados"><span></span></h3>
+<h4 id="gps"><span></span></h4>
+<center><h5 id="chegou"><span></span></h5><center>
+</div>
+
+</div>
+
+</body>
