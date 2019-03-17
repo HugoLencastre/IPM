@@ -11,3 +11,11 @@ Foram impostas, no entanto, algumas restrições ao iRave: tem um ecrã pequeno,
 Sejam criativos, pensem em cenários inovadores. Lembrem-se que certos desenhos de ecrã não se vêm bem ao Sol, que quem já bebeu um pouco não consegue acertar em alvos pequenos, e que as pessoas com óculos também vão a concertos.  
 
 Boa sorte!
+
+____________________________________________________________________________________________________________________________________
+
+How to test it? 
+
+Just download and open the index.html
+
+The HTML was done to the specific school monitor so it's normal to have things not in the right place.
